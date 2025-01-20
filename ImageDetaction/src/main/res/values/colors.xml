@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_efc43b">#efc43b</color>
+    <color name="transparent_black">#94333232</color>
+    <color name="line_color">#FF15FF00</color>
+    <color name="shadow_color">#FF000000</color>
+    <color name="color_tab_purple">#673DBC</color>
+    <color name="textColor_red">#C10E01</color>
+    <color name="colorHalfTransparent">#80000000</color>
+    <color name="color_B3000000">#B3000000</color>
+    <color name="color_red">#FF0000</color>
+    <color name="color_tab_purple_70">#B3673DBC</color>
+</resources>

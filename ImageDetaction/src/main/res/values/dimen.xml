@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <dimen name="frames_video_height">60dip</dimen>
+    <dimen name="text_small">@dimen/_10sdp</dimen>
+</resources>

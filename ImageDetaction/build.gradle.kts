@@ -28,6 +28,11 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    buildFeatures {
+        viewBinding = true
+        buildConfig = true
+    }
 }
 
 dependencies {
@@ -38,6 +43,35 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+
+    // ============== Glide ==============
+    implementation (libs.glide)
+
+    // ============== FFMpeg ==============
+    implementation (libs.mobile.ffmpeg.full)
+    api(libs.media3.exoplayer)
+    api(libs.media3.ui)
+    api(libs.media3.exoplayer.hls)
+    implementation(libs.media3.datasource.cronet)
+
+    // ============== intuit for different devices size ==============
+    implementation (libs.sdp.android)
+    implementation (libs.ssp.android)
+
+    // ============= Color Picker ===========
+    implementation(libs.colorseekbar)
+
+    // ==============Logging==============
+    implementation(libs.timber)
+
+    // ==============RxJava==============
+    implementation(libs.rxandroid)
+    implementation(libs.rxjava)
+
+
+    // ============= Photo Crop ===========
+    implementation(libs.ucrop)
 }
 
 

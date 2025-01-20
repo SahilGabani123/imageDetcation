@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MediaEditor</string>
+    <string name="label_text_capital">Text</string>
+    <string name="label_draw">Draw</string>
+    <string name="label_stickers">Stickers</string>
+    <string name="label_crop">Crop</string>
+    <string name="label_links">Links</string>
+    <string name="label_eraser">Eraser</string>
+    <string name="label_sounds">Sounds</string>
+    <string name="label_upload">Upload</string>
+    <string name="label_done">Done</string>
+    <string name="label_delete">Delete</string>
+    <string name="short_seconds">sec</string>
+</resources>
