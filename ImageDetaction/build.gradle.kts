@@ -48,8 +48,8 @@ dependencies {
     // ============== Glide ==============
     implementation (libs.glide)
 
-    // ============== FFMpeg ==============
-    implementation (libs.mobile.ffmpeg.full)
+//    // ============== FFMpeg ==============
+//    implementation (libs.mobile.ffmpeg.full)
     api(libs.media3.exoplayer)
     api(libs.media3.ui)
     api(libs.media3.exoplayer.hls)
